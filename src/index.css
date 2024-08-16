@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Nunito, Arial, sans-serif;
+  color: #424e5b;
+  font-weight: 300;
+
+}
+.btn {
+  width: 100%;
+  border-radius: 30px;
+  color: #fff;
+  padding: .6rem;
+  border: none;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .8rem;
+}
+
+.main-menu-container {
+  background-color: #fff;
+  box-shadow: 0 0 6px rgba(0, 0, 0, .1);
+  transition: all .5s ease-out;
+  z-index: 12;
+  border-top: 2px solid;
+}
+
+.main-menu-container {
+  border-top-color: #158140;
+}
+
+.fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+
+ .navbar-logo {
+  height: 40px;
+  width: auto;
+  margin-top: 0;
+}
+.navbar {
+  z-index: 1;
+  height: 4rem;
+  padding-right: 0;
+  justify-content: normal;
+  width: 100% !important;
+  padding: .5rem 1rem;
+}
+.navbar-nav{
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;
+}
+.navbar-nav .nav-item.accedi {
+  border-radius: 50px;
+  padding: 0 10px 0 8px;
+  font-weight: 600;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.main-menu-container .navbar .nav-item .nav-link {
+  color: #424e5b;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 5px;
+}
+
+.navbar .navbar-nav.menu-desk .nav-item .masked-image, body.tecnocasa .main-menu-container .navbar .navbar-nav.menu-desk .nav-item .nav-link .masked-image {
+  background-color: #158140;
+}
+
+.navbar-nav .nav-item .nav-link .masked-image {
+  height: 1.1rem;
+  background-color: #fff;
+  vertical-align: top;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.container {
+  max-width: 1440px;
+}
+.home-hero .claim span {
+  font-size: 2.6rem;
+  text-shadow: 0 0 14px rgba(0, 21, 31, .5);
+  font-weight: 500;
+  color: #fff;
+}
+.home-hero .claim h1 {
+  color: #fff;
+  font-size: 1rem;
+  max-width: 450px;
+  margin: 1rem auto 1.2rem;
+  text-shadow: 0 0 14px rgba(0, 21, 31, .5);
+}
+.search-bar {
+  position: relative;
+  height: 54px;
+  max-width: 690px;
+  margin: .8rem auto;
+}
+.search-bar .contract-buttons {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  max-width: 410px;
+  width: 70%;
+  min-width: 250px;
+}
+.search-bar .contract-buttons .btn {
+  padding: .3rem .5rem;
+  margin-bottom: 0;
+  font-size: .8rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: .1rem;
+  border-bottom: 2px solid #fff;
+  border-radius: 0;
+  font-weight: 700;
+}
+.search-bar .contract-buttons .btn.active {
+  color: #fff;
+  border-bottom: 4px solid #fff;
+}
+.home-hero.tecnocasa-5 {
+  background-image: url("https://www.tecnocasa.es/img/home-hero/es/tecnocasa/residential/desktop_5.jpg");
+  height: 657px;
+  background-size: cover !important;
+  background-position: 50% !important;
+  background-repeat: no-repeat;
+  position: relative;
+  padding-top: 9.5rem;
+}
+
+.main-content .home-hero {
+  padding-top: 9rem;
+}
+
+.search-bar .search-bar-form input[type=text] {
+  padding-left: 2.2rem;
+  height: 50px;
+  font-size: .9rem;
+}
+.search-bar .search-bar-form input[type=text] {
+  width: 100%;
+  border: none;
+  height: 54px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  box-shadow: 0 0 39px 0 rgba(57, 68, 81, .24);
+  background-color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 57px;
+  padding-left: 5.8rem;
+}
+.search-bar .search-bar-form .search-icon {
+  position: absolute;
+  top: 48px;
+  right: 0;
+  height: 54px;
+  width: 54px;
+  display: flex;
+  justify-content: center;
+}
+.search-bar .search-bar-form .search-icon img {
+  width: 25px;
+  height: 55px;
+}
+/* .principal {
+  background-image: ;
+  height: 800px;
+} */
+
+.es-transparente {
+  background-color: transparent;
+}
+
+li.nav-item a.nav-link {
+  color: white;
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: Nunito, Arial, sans-serif;
+}
+
+/* img {
+  width: 150px;
+  height: 40px;
+} */
+
+div.busqueda {
+  font-family: Arial;
+  text-align: center;
+  color: white;
+  line-height: 0.2;
+}
+
+input[type='text'] {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  box-shadow: 0 0 39px 0 rgba(57, 68, 81, .24);
+  background-color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 57px;
+}
+
+button.btn-light {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+ul.geo-results {
+  margin-bottom: 1rem;
+  z-index: 100;
+  background: #fff;
+  list-style: none;
+  width: calc(100vw - 30px);
+  border-radius: 20px;
+  margin-top: .5rem;
+  padding: 1rem 1rem .5rem;
+  max-height: 380px;
+  overflow: auto;
+  max-width: 690px;
+  /*max-height: 38vh;*/
+  box-shadow: 0 0 39px 0 rgba(57, 68, 81, .24);
+}
+
+ul.geo-section {
+  padding-top: 5px;
+  padding-inline-start: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  list-style-type: none;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  text-align: left;
+}
+
+li.geo-title {
+  font-family: Nunito, Arial, sans-serif;
+  color: #424e5b;
+  font-weight: 700;
+  margin: .2rem;
+  text-transform: uppercase;
+  font-size: .9rem;
+  border-top: 1px solid #e2e2e2;
+  width: 100%;
+  padding-top: .5rem;
+}
+
+li.result {
+  font-family: Nunito, Arial, sans-serif;
+  font-size: .9rem;
+  color: #424e5b;
+  padding: .3rem 0 .3rem 1.9rem;
+  cursor: pointer;
+  list-style: none;
+  border-radius: 10px;
+}
+
+li.result:hover {
+  background-color: hsla(0, 0%, 94.9%, .8);
+}
+
+img.geo-results {
+  width: .9rem;
+  margin-right: .5rem;
+  vertical-align: middle;
+  border-style: none;
+  /* overflow-clip-margin: content-box;
+  overflow: clip; */
+}
+
+.btn.mini {
+  margin-left: 10px;
+  border-style: none;
+  width: 22px;
+  height: 26px;
+
+}
+
+button.btn-mini:hover {
+  background-color: transparent;
+  border-style: none;
+  border-color: none;
+}
+
+img.footer {
+  height: 1rem;
+  width: 1rem;
+  vertical-align: middle;
+  color: #208989 !important;
+  margin: 0 .3rem 0 0;
+  /*    position: relative;
+  top: -2px;
+*/
+}
+
+p.card-text {
+  font-size: .7rem;
+  font-family: Nunito, Arial, sans-serif;
+  color: #424e5b;
+  font-weight: 200;
+}
+
+.text-footer {
+  font-size: .8rem;
+  text-align: left;
+  color: #424e5b;
+  font-weight: 600;
+}
+
+div.card {
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 24px rgba(0, 0, 0, .1);
+  width: 46.77% !important;
+  margin: 1rem .6rem 2rem;
+  transition: all .2s;
+  opacity: 1;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+section.vender-piso {
+  background: url("https://www.tecnocasa.es/img/hero/hero-vender-piso.jpg");
+  height: 515px;
+  background-size: cover;
+}
+
+section.vender-piso div {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+
+section.vender-piso h2 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.btn-network {
+  background: #fff;
+  box-shadow: none;
+  padding: .5rem 2rem !important;
+  margin-top: 1rem;
+  border: transparent !important;
+  line-height: 1.5rem;
+  color:#1c252c;
+}
+
+.btn-network {
+  background: #fff;
+  box-shadow: none;
+  padding: .5rem 2rem !important;
+  margin-top: 1rem;
+  border: transparent !important;
+  line-height: 1.5rem;
+}
+
+.btn-network:hover {
+  background: #424e5b;
+  color: white;
+}
+
+
+.home-services {
+  margin: 0;
+  font-weight: 200;
+  box-shadow: 0 0 20px 0 rgba(162, 182, 195, .14);
+  padding: 3rem 0;
+}
+
+.home-services h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.VueCarousel {
+  display: flex;
+  flex-direction: row;
+}
+
+.VueCarousel-inner {
+  display: flex;
+  flex-direction: row;
+}
+
+.VueCarousel-slide {
+  display: flex;
+  flex-direction: column;
+  max-width: 444px;
+}
+
+.VueCarousel-slide img {
+  width: 250px;
+  height: 240px;
+}
+
+.VueCarousel {
+  padding-top: 3rem;
+}
+
+.carouselNews {
+  transform: translate(0px, 0px);
+  transition: transform 0.5s ease 0s;
+  flex-basis: 352.5px;
+  visibility: visible;
+  height: auto;
+}
+
+.home-news .carousel-card{
+  min-height: 490px;
+  background: #fff;
+  padding: .8rem;
+  border-radius: 20px;
+  margin: 0 .5rem;
+  align-items: flex-start;
+  height: 100%;
+  width: 300px;
+}
+.home-news .carousel-card img{
+  width: 300px;
+}
+.home-news .caroueselNews{
+  gap: 12px;
+}
+.carousel-card .card-news{
+  object-fit: cover;
+    min-height: 208px;
+    border-radius: 20px;
+}
+.carousel-card h4{
+  font-size: 1.2rem;
+  height: 2.5rem;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+section.revista {
+  background-size: contain;
+  background: #6965a4;
+  background: linear-gradient(0deg, #424e5b 23%, #daf3fa 0);
+  box-shadow: inset 0 10px 19px 2px rgba(162, 182, 195, .14);
+}
+section.revista h2, section.revista h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #424e5b;
+}
+.static-block h2 {
+  font-weight: 600;
+  margin-bottom: .5rem;
+  line-height: 1.2;
+  font-size: 1rem;
+}
+
+.static-block li {
+  color: #424e5b;
+  font-size: .9rem;
+  display: block;
+  background-color: #f1f3f4;
+  margin: .8rem 0;
+  border-radius: 30px;
+  font-weight: 500;
+  padding: 0.2rem 1.2rem;
+}
+
+a {
+  color: #365c76;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.footer {
+  margin-bottom: 0;
+  padding: 1rem 0 0;
+  background-image: none;
+  margin-top: 0;
+  padding: 1.4rem;
+  background: #1c252c;
+  color: #9da1a4;
+  background-image: url(https://www.tecnocasa.es/img/icons/tecnocasa/logo-bg.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.legal {
+  font-size: .7rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: transparent;
+}
+.footer .footer-links.world {
+  margin: 10px 0;
+  text-align: left;
+  max-width: 300px;
+  z-index: 9;
+}
+.footer .footer-links.world a {
+  color: #9da1a4;
+  font-size: .8rem;
+}
+.footer  a {
+  color: #9da1a4;
+  font-size: .8rem;
+}
+
+.footer .footer-links h4 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: .8rem !important;
+  font-weight: 500 !important;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer a.btn-intranet {
+  border: 2px solid;
+  display: block;
+  width: 170px;
+  padding: 5px 10px;
+  text-transform: none;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  margin-left: 0;
+}
